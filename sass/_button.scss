@@ -1,0 +1,69 @@
+//  .btn {
+//      padding: 18px;
+//      border-radius: 10px;
+//      background: aquamarine;
+//      text-decoration: none;
+//      display: inline-block;
+//  }
+
+//  .btn-primary {
+//      background-color: $primary-color;
+//      color: $white;
+//  }
+
+//  .btn-primary:hover {
+//      background-color: lighten($primary-color, 10%);
+//  }
+
+//  .btn-info {
+//      background-color: $info-color;
+//      color: $white;
+//  }
+
+//  .btn-info:hover {
+//      background-color: lighten($info-color, 10%);
+//  }
+
+
+// cara dua
+
+// .btn {
+//     padding: 18px;
+//     border-radius: 10px;
+//     background: aquamarine;
+//     text-decoration: none;
+//     display: inline-block;
+// }
+
+// .btn-primary {
+//     @include gabungan($primary-color, $white);
+// }
+
+// .btn-info {
+//     @include gabungan($info-color, $white)
+// }
+
+// .btn-error {
+//     @include gabungan($error-color, $white)
+// }
+
+.btn {
+    padding: 18px;
+    border-radius: 10px;
+    background: aquamarine;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+
+    &-primary {
+        @include gabungan($primary-color, $white);
+    }
+
+    &-info {
+        @include gabungan($info-color, $white)
+    }
+
+    &-error {
+        @include gabungan($error-color, $white)
+    }
+}

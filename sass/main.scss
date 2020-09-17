@@ -1,0 +1,42 @@
+@import "variabels";
+@import "mixins";
+
+
+@import "navigation";
+@import "button";
+
+body {
+    background-color: $white;
+    font-family: $font-sans;
+    font-size: 14px;
+}
+
+// .awal {
+//     background-color: blue;
+//     color: $white;
+//     margin-bottom: 10px;
+//     padding: 15px;
+// }
+
+// .kedua {
+//     background-color: blue;
+//     color: $white;
+//     margin-bottom: 10px;
+//     padding: 15px;
+//     border-radius: 20px;
+// }
+
+.awal {
+    background-color: $primary-color;
+    color: $white;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.kedua {
+    background-color: $primary-color;
+    color: $white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 20px;
+}

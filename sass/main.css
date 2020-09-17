@@ -1,0 +1,72 @@
+.navigation {
+  background-color: #0078ff;
+}
+
+.navigation-link {
+  padding: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navigation-link:hover {
+  background-color: #0060cc;
+}
+
+.btn {
+  padding: 18px;
+  border-radius: 10px;
+  background: aquamarine;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #0078ff;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #3393ff;
+}
+
+.btn-info {
+  background-color: #00a4dd;
+  color: #ffffff;
+}
+
+.btn-info:hover {
+  background-color: #11c2ff;
+}
+
+.btn-error {
+  background-color: red;
+  color: #ffffff;
+}
+
+.btn-error:hover {
+  background-color: #ff3333;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.awal {
+  background-color: #0078ff;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.kedua {
+  background-color: #0078ff;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=main.css.map */

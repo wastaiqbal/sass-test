@@ -1,0 +1,8 @@
+ @mixin gabungan ($back, $clr) {
+     background-color: $back;
+     color: $clr;
+
+     &:hover {
+         background-color: lighten($back, 10%);
+     }
+ }

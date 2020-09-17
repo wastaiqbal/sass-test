@@ -1,0 +1,29 @@
+//  .navigation {
+//      background-color: $primary-color;
+//  }
+
+//  .navigation-link {
+//      padding: $padding-default;
+//      color: $white;
+//      text-decoration: none;
+//      display: inline-block;
+//  }
+
+//  .navigation-link:hover {
+//      background-color: darken($primary-color, 10%);
+//  }
+
+.navigation {
+    background-color: $primary-color;
+
+    &-link {
+        padding: $padding-default;
+        color: $white;
+        text-decoration: none;
+        display: inline-block;
+
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+}
